@@ -1,0 +1,16 @@
+{
+  "name": "gmail-classic",
+  "version": "0.0.0",
+  "description": "CSS for reverting Gmail to the Classic Theme",
+  "repository": "shellscape/gmail-classic",
+  "author": "Andrew Powell <andrew@shellscape.org>",
+  "license": "MPL-2.0",
+  "scripts": {
+    "lint": "stylelint gmail.css --config ./.stylelintrc"
+  },
+  "devDependencies": {
+    "stylelint": "^9.8.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^1.0.0"
+  }
+}
