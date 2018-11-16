@@ -19,7 +19,7 @@ Using with Stylus:
 1. Click _Manage_ button
 1. Click the _Write new Style_ button
 1. In the _Enter a Name_ textbox, enter 'Gmail Classic'
-1. Paste the code from [gmail.css]() in this repository into the _Code 1_ textarea
+1. Paste the code from [gmail.css](https://github.com/shellscape/gmail-classic/blob/master/gmail.css) in this repository into the _Code 1_ textarea
 1. Click the _+_ button to the right of _Applies to Everything_, which is directly beneath the textarea
 1. In the select dropdown that appears, choose _URLs on the domain_, and enter 'mail.google.com'
 1. Click the _Save_ button near the top left
