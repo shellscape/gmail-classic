@@ -366,7 +366,7 @@ body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] div div.aio 
 }
 
 .yO {
-  background: rgba(243, 243, 243, 0.85) !important;
+  background: rgba(242, 245, 245, 0.8) !important;
   border-bottom: 1px #e5e5e5 solid !important;
   color: #222 !important;
 }
@@ -383,6 +383,12 @@ body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] div div.aio 
   border-bottom: 1px #e5e5e5 solid !important;
   color: #222 !important;
   -webkit-font-smoothing: auto !important;
+}
+
+.x7 {
+  /* Selected Row */
+  background: #ffc !important;
+  color: #222 !important;
 }
 
 .zA:hover,
