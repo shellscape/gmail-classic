@@ -8,6 +8,12 @@ CSS for reverting Gmail to the Classic Theme
 
 _Please consider donating if you find this useful._
 
+<div align="center">
+  <a href="https://raw.githubusercontent.com/shellscape/gmail-classic/master/assets/gmail-classic-full.png?sanitize=true" target="_blank">
+  	<img src="https://raw.githubusercontent.com/shellscape/gmail-classic/master/assets/gmail-classic.png?sanitize=true" alt="gmail classic">
+  </a>
+</div>
+
 ## Usage
 
 The CSS contained in this repository is meant to be used with an extension for your browser which allows users to inject their own CSS into a page. We recommend the [Stylus](https://add0n.com/stylus.html) extension, which is available for free for [Chrome](https://chrome.google.com/webstore/detail/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/firefox/addon/styl-us/), and [Opera](https://addons.opera.com/extensions/details/stylus/).
