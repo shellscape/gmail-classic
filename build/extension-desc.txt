@@ -1,0 +1,7 @@
+An extension for reverting Gmail to the Classic Theme.
+
+What Google giveth, Google taketh away. Google has recently forced a UI update upon the users of Gmail. Unfortunately, not everyone thinks it's an improvement. Installing this extension will revert the UI of Gmail to the previous "Classic" theme. The theme is based on the actual CSS from the previous UI and makes no additions or subjective changes.
+
+This extension is open source. You can review or contribute to the code for this extension here: https://github.com/shellscape/gmail-classic.
+
+Release info and change-log can be found here: https://github.com/shellscape/gmail-classic/releases.

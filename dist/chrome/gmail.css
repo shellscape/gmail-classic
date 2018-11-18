@@ -1,0 +1,587 @@
+/*
+  Copyright © 2018 Andrew Powell
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+  The above copyright notice and this permission notice shall be
+  included in all copies or substantial portions of this Source Code Form.
+*/
+
+/* ## Generics */
+
+/* Use @font-face to prevent conflicts with received HTML email */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 100 549;
+  src: local("Arial");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 550 900;
+  src: local("Arial Bold");
+}
+
+@font-face {
+  font-family: "Google Sans";
+  font-weight: normal;
+  font-weight: 100 549;
+  src: local("Arial");
+}
+
+@font-face {
+  font-family: "Google Sans";
+  font-weight: normal;
+  font-weight: 550 900;
+  src: local("Arial Bold");
+}
+
+* {
+  -webkit-font-smoothing: auto !important;
+  letter-spacing: 0 !important;
+}
+
+body,
+td,
+input,
+textarea,
+select {
+  box-shadow: none !important;
+  font-size: 12.8px !important;
+  margin: 0 !important;
+}
+
+span {
+  font-size: 12.8px;
+  letter-spacing: normal;
+}
+
+a {
+  font-size: 12.8px;
+}
+
+.aeN,
+.wT {
+  min-width: 202px !important;
+}
+
+.nM,
+.xY,
+.yW {
+  font-size: 0.8rem !important;
+}
+
+.TK .TO {
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+.TN .qr {
+  display: none;
+}
+
+/* ## Buttons */
+
+.qr {
+  visibility: hidden !important;
+}
+
+.Bn {
+  border: none !important;
+}
+
+.bzo > .G-tF > .G-Ni > .T-I,
+.SI .bzo > .G-tF > .G-Ni > .T-I {
+  margin-left: 0;
+}
+
+.bzn:not(.bzo) .mA > .Bn {
+  margin: 0 !important;
+}
+
+div[role="button"] div::before {
+  /* Remove Button Animation */
+  transform: scale(0) !important;
+}
+
+body[jsaction] [gh="cm"] {
+  /* Compose */
+  background-color: #d14836 !important;
+  background-image: linear-gradient(to bottom, #dd4b39, #d14836) !important;
+  border: 1px solid transparent !important;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  font-size: 11px !important;
+  font-weight: bold !important;
+  height: 27px !important;
+  line-height: 27px !important;
+  margin-left: 18px !important;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1) !important;
+  text-transform: uppercase !important;
+}
+
+body[jsaction] [gh="cm"]::before {
+  /* Compose Background */
+  background-image: none !important;
+  min-width: 26px !important;
+}
+
+body[jsaction] div[jscontroller] > div > div > div > div {
+  /* Compose Background */
+  margin: -1px !important;
+  padding-top: 15px !important;
+}
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] > div div[style]::after {
+  /* Folders */
+  display: none !important;
+}
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] > div div[style]::before {
+  /* Folders */
+  border-radius: 0 !important;
+}
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] div div:nth-child(4) {
+  /* Tag Dropdown */
+  margin-right: 15px;
+  position: absolute;
+  top: 0;
+}
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] div div:nth-child(4) div[aria-haspopup="true"]::before {
+  /* No Bubbles */
+  background-color: initial !important;
+}
+
+body[jsaction] [role="navigation"] [data-collapsed-nav-tooltip] {
+  /* No Bubbles */
+  border-radius: 0 !important;
+}
+
+body[jsaction] [role="navigation"] a {
+  /* No Bubbles */
+  font-size: 12.8px !important;
+}
+
+.TI .T-I-ax7,
+.z0 .T-I-ax7,
+.G-atb .T-I-ax7,
+.Bn {
+  background-color: transparent !important;
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1) !important;
+  background-image: linear-gradient(top, #f5f5f5, #f1f1f1) !important;
+  background-image: -webkit-linear-gradient(to bottom, #f5f5f5, #f1f1f1) !important;
+  background-image: linear-gradient(to bottom, #f5f5f5, #f1f1f1) !important;
+  font-size: 11px !important;
+  font-weight: bold !important;
+}
+
+/* stylelint-disable-next-line */
+.TI .T-I-ax7,
+.z0 .T-I-ax7,
+.G-atb .T-I-ax7,
+.Bn {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 2px !important;
+  height: 26px !important;
+  line-height: 27px !important;
+  min-width: 64px !important;
+}
+
+.G-tF > .G-Ni > .T-I,
+.SI .G-tF > .G-Ni > .T-I {
+  margin-left: 0 !important;
+  margin-right: 24px !important;
+}
+
+.G-atb {
+  padding: 0 16px 0 0 !important;
+}
+
+.G-Ni.J-J5-Ji > .T-I {
+  margin-right: 0 !important;
+}
+
+.aqL .G-Ni.J-J5-Ji {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  margin-right: 32px !important;
+  padding-right: 0 !important;
+}
+
+.G-Ni.G-aE {
+  margin-right: 32px !important;
+}
+
+.G-Ni.J-J5-Ji > .T-I:not(:first-child) {
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+
+.G-Ni.J-J5-Ji:not(:first-child) > .T-I:not(:last-child) {
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  margin-right: -1px !important;
+}
+
+.aqK,
+.G-tF,
+.aqJ,
+.iH,
+.adF {
+  height: 28px !important;
+}
+
+.d-Na-JX-I.d-Na-M7-JX.d-Na-Gs,
+.d-Na-JX-I.d-Na-JG.d-Na-IF {
+  height: 28px !important;
+  line-height: 28px !important;
+}
+
+.G-atb .aqJ .amD,
+.G-atb .aqJ .T-I-ax7 {
+  margin-left: 0 !important;
+  min-width: 40px !important;
+}
+
+.G-atb .aqJ .amD:nth-child(2) {
+  margin-left: 20px !important;
+}
+
+.T-I-JW.amD::before,
+.G-Ni .G-asx::before {
+  display: none !important;
+}
+
+.asa::before,
+.T-Jo::before,
+.d-Na-JX-I::before {
+  display: none !important;
+}
+
+.G-Ni.G-aE:not(:first-child) {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.iG .h0 .adg {
+  margin-left: 0 !important;
+  min-width: 40px !important;
+}
+
+.h0 > .adl {
+  padding-right: 20px !important;
+}
+
+.nH .gm-boomerang-button-home {
+  background-image: linear-gradient(to bottom, #f5f5f5, #f1f1f1) !important;
+  border-radius: 2px !important;
+  color: transparent !important;
+  line-height: 26px !important;
+  padding-top: 0 !important;
+  position: relative !important;
+  text-indent: -9999px !important;
+  top: 0 !important;
+  width: 66px !important;
+}
+
+.nH .gm-boomerang-button-home:hover {
+  background-image: linear-gradient(to bottom, #dbdbdb, #e8e8e8) !important;
+}
+
+.nH .gm-boomerang-button-home img {
+  left: 20px !important;
+  position: absolute !important;
+  top: 6px !important;
+}
+
+.bzn .G-Ni {
+  margin-left: 0 !important;
+}
+
+.inboxsdk__thread_toolbar_parent .bzn .G-Ni {
+  margin-right: 32px !important;
+  padding-right: 0 !important;
+}
+
+.gm-boomerang-button-thread {
+  background-image: linear-gradient(to bottom, #f5f5f5, #f1f1f1) !important;
+  position: relative !important;
+  text-indent: -20px !important;
+  top: 1px !important;
+  width: 140px !important;
+}
+
+.gm-boomerang-button-thread:hover {
+  background-image: linear-gradient(to bottom, #dbdbdb, #e8e8e8) !important;
+}
+
+.gm-boomerang-button-thread img {
+  left: 20px !important;
+  position: absolute !important;
+  top: 6px !important;
+}
+
+.adg::before {
+  display: none !important;
+}
+
+/* ## Email Count */
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] div div.aio {
+  flex: inherit !important;
+}
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] div div.aio div:last-child {
+  color: #222;
+  display: initial !important;
+  font-size: 12.8px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] div div.aio div:last-child::before {
+  content: "(";
+}
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] div div.aio div:last-child:last-child::after {
+  content: ")";
+}
+
+/* ## Labels */
+
+.ar {
+  border-radius: 5 !important;
+  font-size: 0.7rem !important;
+}
+
+/* ## List Rows */
+
+.wT > .n3 .byl:first-child .aim:first-child .nZ {
+  background-color: transparent !important;
+}
+
+.yO {
+  background: rgba(242, 245, 245, 0.8) !important;
+  border-bottom: 1px #e5e5e5 solid !important;
+  color: #222 !important;
+}
+
+.zA {
+  /* Rows */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+  box-shadow: unset !important;
+  padding-bottom: 7px;
+  padding-top: 6px;
+}
+
+.zE {
+  border-bottom: 1px #e5e5e5 solid !important;
+  color: #222 !important;
+  -webkit-font-smoothing: auto !important;
+}
+
+.x7 {
+  /* Selected Row */
+  background: #ffc !important;
+  color: #222 !important;
+}
+
+.zA:hover,
+.zE,
+.yO {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-font-smoothing: auto !important;
+}
+
+.yW {
+  -webkit-font-smoothing: auto !important;
+}
+
+/* ## Subject Preview */
+
+.zA .ze {
+  font-weight: 400;
+}
+
+/* ## Email Detail View */
+
+.hx .gD {
+  /* Sender Name */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.ha > .hP {
+  /* Subject */
+  font-size: 18px;
+}
+
+div {
+  /* Tab / Sender */
+  font-weight: 400;
+}
+
+.bA4 {
+  font-size: 13px !important;
+}
+
+/* ## Left Nav */
+
+.TO .n0 {
+  color: #222 !important;
+  font-size: 13px !important;
+}
+
+.TO {
+  border-left: 4px solid transparent;
+}
+
+.nZ.aiq {
+  background: transparent !important;
+  border-left: 4px solid rgb(221, 75, 57) !important;
+}
+
+.nZ.TO .n0 {
+  color: rgb(221, 75, 57) !important;
+  text-shadow: none !important;
+}
+
+.gb_Ra {
+  /* Logo Border */
+  background-color: #f1f1f1 !important;
+  border-width: 0 !important;
+}
+
+div[role="navigation"][style][aria-labelledby] h2 + div {
+  max-width: 179px !important;
+  min-width: 179px !important;
+}
+
+body[jsaction] .ain [data-collapsed-nav-tooltip][data-tooltip] > div {
+  /* Selection */
+  background: #fff;
+}
+
+body[jsaction] .ain [data-collapsed-nav-tooltip][data-tooltip] > div::before {
+  border-left: 4px solid #dd4b39;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+body[jsaction] .ain [data-collapsed-nav-tooltip][data-tooltip] > div:hover {
+  background: transparent !important;
+  background-color: #f1f3f4 !important;
+}
+
+body[jsaction] .ain [data-collapsed-nav-tooltip][data-tooltip] > div a {
+  color: #dd4b39 !important;
+}
+
+body[jsaction] .ain [data-collapsed-nav-tooltip][data-tooltip] > div > div:nth-child(3) div {
+  /* Email Count */
+  color: #dd4b39 !important;
+}
+
+body[jsaction] [role="navigation"] [data-collapsed-nav-tooltip] > div > div:first-child,
+body[jsaction] [role="navigation"] [data-collapsed-nav-tooltip] > div img + div {
+  /* Email Count Icon */
+  display: none !important;
+}
+
+body[jsaction] [role="navigation"] [data-collapsed-nav-tooltip] > div {
+  height: 21px !important;
+}
+
+/* ## Tabs */
+
+.aAy.aIf-aLe.J-KU-KO,
+.aAy.aKe-aLe.J-KU-KO,
+.aAy.aJi-aLe.J-KU-KO,
+.aAy.aH2-aLe.J-KU-KO {
+  height: 38px !important;
+}
+
+.aKh {
+  background-color: #f5f5f5 !important;
+  height: 38px !important;
+  margin-top: 5px !important;
+}
+
+.l2 {
+  padding-bottom: 5px !important;
+}
+
+.l6 {
+  padding-top: 0 !important;
+}
+
+.bAp.b8.UC .vh {
+  font-size: 12px;
+  margin-left: 260px;
+  opacity: 0.4;
+  padding-right: 30px;
+}
+
+/* ## Header */
+
+header[role="banner"] {
+  background-color: #f1f1f1 !important;
+}
+
+#aso_search_form_anchor {
+  background-color: #fff !important;
+}
+
+#aso_search_form_anchor:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ## Message */
+
+[role="main"] table[role="presentation"] > tr > td:first-child > div:nth-child(2) > div:first-child {
+  /* Title */
+  padding: 8px 0 0 8px;
+  position: relative;
+}
+
+div:not([role="list"]) div[data-message-id][class]::before {
+  /* Title Bottom Border */
+  border-bottom: 1px solid #d8d8d8;
+  content: "";
+  height: 1px;
+  pointer-events: none;
+  position: absolute;
+  top: 7px;
+  width: 100%;
+}
+
+[role="main"] table[role="presentation"] > tr > td:first-child > div:nth-child(2) h2 {
+  font-size: 17.6px;
+}
+
+/* ## Tags */
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] > div div[style],
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] > div div.qj {
+  margin-right: 0 !important;
+  position: absolute;
+  right: 0;
+}
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] > div div.qj::after {
+  display: none;
+}
+
+body[jsaction] [data-collapsed-nav-tooltip][data-tooltip-suspended] > div div.qj::before {
+  border-radius: 0 !important;
+}
