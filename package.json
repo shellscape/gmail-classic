@@ -1,6 +1,6 @@
 {
   "name": "gmail-classic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CSS for reverting Gmail to the Classic Theme",
   "repository": "shellscape/gmail-classic",
   "author": "Andrew Powell <andrew@shellscape.org>",
