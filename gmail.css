@@ -492,9 +492,8 @@ body[jsaction] .ain [data-collapsed-nav-tooltip][data-tooltip] > div > div:nth-c
   color: #dd4b39 !important;
 }
 
-body[jsaction] [role="navigation"] [data-collapsed-nav-tooltip] > div > div:first-child,
 body[jsaction] [role="navigation"] [data-collapsed-nav-tooltip] > div img + div {
-  /* Email Count Icon */
+  /* Inbox Nav Icon */
   display: none !important;
 }
 
