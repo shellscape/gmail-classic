@@ -34,3 +34,9 @@ Using with Stylus:
 1. In the select dropdown that appears, choose _URLs on the domain_, and enter 'mail.google.com'
 1. Click the _Save_ button near the top left
 1. Enjoy 😀
+
+## Meta
+
+[CONTRIBUTING](./.github/CONTRIBUTING.md)
+
+[LICENSE (Mozilla Public License)](./LICENSE)
