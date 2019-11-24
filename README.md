@@ -9,8 +9,8 @@ CSS for reverting Gmail to the Classic Theme
 _Please consider donating if you find this useful._
 
 <div align="center">
-  <a href="https://raw.githubusercontent.com/shellscape/gmail-classic/master/assets/screenshot-full.png?sanitize=true" target="_blank">
-  	<img src="https://raw.githubusercontent.com/shellscape/gmail-classic/master/assets/screenshot.png?sanitize=true" alt="gmail classic">
+  <a href="https://raw.githubusercontent.com/shellscape/gmail-classic/master/assets/screenshot-full.png?sanitize=1" target="_blank">
+  	<img src="https://raw.githubusercontent.com/shellscape/gmail-classic/master/assets/screenshot.png?sanitize=1" alt="gmail classic">
   </a>
 </div>
 
